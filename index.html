@@ -187,6 +187,8 @@ Error message and password prompt
 
 <li>Test</li>
 
+<li>Unicode - formatted text</li>
+
 </ul>
 </p>
 
@@ -9592,7 +9594,7 @@ Error message and password prompt
 <div status="complete" title="$:/Import">
 <pre>The following tiddlers were imported:
 
-# [[Untitled]]</pre>
+# [[Unicode - formatted text]]</pre>
 </div>
 <div created="20201001014155301" modified="20201001014155301" title="$:/Import!!popup-Untitled">
 <pre>yes</pre>
@@ -9624,7 +9626,7 @@ Error message and password prompt
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div created="20201001014201006" list="" modified="20201001014819127" title="$:/StoryList">
+<div created="20201001014201006" list="[[Unicode - formatted text]]" modified="20201001015007807" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -9803,6 +9805,15 @@ Error message and password prompt
 bbb
 
 ccc</pre>
+</div>
+<div bag="default" created="20200720205305307" creator="alex" modified="20200720211413092" modifier="alex" revision="0" tags="" title="Unicode - formatted text" type="text/vnd.tiddlywiki">
+<pre>í µí°€í µí°©í µí°©í µí°ší µí°«í µí°í µí°§í µí°­í µí°¥í µí°², í µí·¶í µí¸ í µí·¶í µí¸€ í µí±í µí±œí µí± í µí± í µí±–í µí±í µí±™í µí±’ í µí¸µí µí¸° í µí¸©í µí¸¢í µí¸·í µí¸¦ í µí²‡í µí²í µí²“í µí²í µí²‚í µí²•í µí²•í µí²†í µí²… í µí²•í µí²†í µí²™í µí²• í µí¹¥í µí¹ªí µí¹§í µí¹ší µí¹¡í µí¹® í µí¹í µí¹£ í µí¹í µí¹£í µí¹í µí¹˜í µí¹¤í µí¹™í µí¹š. Just look at the source of this tiddler. What???
+
+Well, it is not a real formatting per se. Unicode is not just a special way to encode accented characters and smileys. You can encode anything there, and [[one block|https://www.compart.com/en/unicode/block/U+1D400]] of unicode addresses is dedicated to //Mathematical Alphanumeric Symbols//. Those symbols happen to //look like// standard english letters in several fonts, plus bold/italic variants.
+
+Obviously, those symbols letters are supposed to be used in formulas for variable names etc.. and not in a normal text. Because those symbols have different codes, they probably won't appear in //normal// searches. Try //typing// the word í µí¹¥í µí¹ªí µí¹§í µí¹ší µí¹¡í µí¹® in the search box and see if this tiddler shows up.
+
+That being said, noone can stop internet users from making their tweets stand out, and where there is a demand, supply follows. Web sites are [[plenty|https://yaytext.com/bold-italic/]] that can convert normal text to those unicode abominations, readily available to be copy/pasted.</pre>
 </div>
 
 
